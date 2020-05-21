@@ -37,10 +37,10 @@ namespace Hazel {
 		int m_RepeatCount;
 	};
 
-	class HAZEL_API KeyRelasedEvent : public KeyEvent
+	class HAZEL_API KeyReleasedEvent : public KeyEvent
 	{
 	public:
-		KeyRelasedEvent(int keycode)
+		KeyReleasedEvent(int keycode)
 			: KeyEvent(keycode) {}
 
 		std::string ToString() const override
@@ -50,6 +50,6 @@ namespace Hazel {
 			return ss.str();
 		}
 
-		EVENT_CLASS_TYPE(KeyRelased);
+		EVENT_CLASS_TYPE(KeyReleased);
 	};
 }
