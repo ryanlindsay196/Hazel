@@ -1,6 +1,7 @@
+
 #include <Hazel.h>
 
-class ExampleLayer : public Hazel::Layer 
+class ExampleLayer : public Hazel::Layer
 {
 public:
 	ExampleLayer()
@@ -26,9 +27,10 @@ public:
 	Sandbox()
 	{
 		PushLayer(new ExampleLayer());
+		PushOverlay(new Hazel::ImGuiLayer());
 	}
 
-	~Sandbox() 
+	~Sandbox()
 	{
 
 	}
