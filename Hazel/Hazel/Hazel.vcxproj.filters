@@ -71,6 +71,8 @@
     </ClInclude>
     <ClInclude Include="src\hazel.h" />
     <ClInclude Include="src\hzpch.h" />
+    <ClInclude Include="src\Hazel\KeyCodes.h" />
+    <ClInclude Include="src\Hazel\MouseButtonCodes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
