@@ -1,6 +1,6 @@
 #pragma once
 
-// For use by Hazel applicaitons
+// For use by Hazel applications
 
 #include "Hazel/Application.h"
 #include "Hazel/Layer.h"
@@ -10,8 +10,8 @@
 #include "Hazel/KeyCodes.h"
 #include "Hazel/MouseButtonCodes.h"
 
-#include "ImGui/ImGuiLayer.h"
+#include "../imgui/imgui.h"
 
-// ---Entry Point-------------------------
+// ---Entry Point---------------------
 #include "Hazel/EntryPoint.h"
-// ---------------------------------------
+// -----------------------------------
